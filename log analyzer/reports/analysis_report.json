@@ -1,0 +1,95 @@
+{
+    "generated_at": "2026-11-17T02:12:59",
+    "risk_assessment": {
+        "overall_risk": "HIGH",
+        "total_alerts": 3
+    },
+    "summary": {
+        "total_log_entries": 19,
+        "info": 5,
+        "warnings": 7,
+        "errors": 3,
+        "failed_login_attempts": 5
+    },
+    "users_with_failed_logins": {
+        "aman": 3,
+        "rahul": 2
+    },
+    "failed_logins_by_ip": {
+        "192.0.2.10": 3,
+        "198.51.100.25": 2
+    },
+    "ip_activity": [
+        {
+            "ip_address": "192.0.2.10",
+            "failed_attempts": 3,
+            "rapid_activity_detected": true
+        },
+        {
+            "ip_address": "198.51.100.25",
+            "failed_attempts": 2,
+            "rapid_activity_detected": false
+        }
+    ],
+    "login_timeline": [
+        {
+            "timestamp": "2026-11-12T09:10:12",
+            "username": "aman",
+            "ip_address": "192.0.2.10"
+        },
+        {
+            "timestamp": "2026-11-12T09:10:15",
+            "username": "aman",
+            "ip_address": "192.0.2.10"
+        },
+        {
+            "timestamp": "2026-11-12T09:10:18",
+            "username": "aman",
+            "ip_address": "192.0.2.10"
+        },
+        {
+            "timestamp": "2026-11-12T09:15:10",
+            "username": "rahul",
+            "ip_address": "198.51.100.25"
+        },
+        {
+            "timestamp": "2026-11-12T09:16:20",
+            "username": "rahul",
+            "ip_address": "198.51.100.25"
+        }
+    ],
+    "rapid_login_alerts": [
+        "Potential brute-force pattern from IP 192.0.2.10: 3 attempts within 60 seconds"
+    ],
+    "security_alerts": [
+        "Repeated failed logins for user aman",
+        "Repeated failed logins from IP 192.0.2.10",
+        "Potential brute-force pattern from IP 192.0.2.10: 3 attempts within 60 seconds"
+    ],
+    "detailed_alerts": [
+        {
+            "type": "Repeated username failures",
+            "severity": "MEDIUM",
+            "message": "Repeated failed logins for user aman",
+            "evidence": "3 failed attempts"
+        },
+        {
+            "type": "Repeated IP failures",
+            "severity": "MEDIUM",
+            "message": "Repeated failed logins from IP 192.0.2.10",
+            "evidence": "3 failed attempts"
+        },
+        {
+            "type": "Rapid login activity",
+            "severity": "HIGH",
+            "message": "Potential brute-force pattern from IP 192.0.2.10: 3 attempts within 60 seconds",
+            "evidence": "3 attempts within 60 seconds"
+        }
+    ],
+    "recommendations": [
+        "Investigate IP addresses associated with rapid login failures.",
+        "Review repeated failed login attempts by source IP.",
+        "Review accounts experiencing repeated authentication failures.",
+        "Investigate application errors and check related system logs."
+    ]
+}

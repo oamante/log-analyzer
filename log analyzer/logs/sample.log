@@ -1,0 +1,30 @@
+
+2026-11-12 09:00:12 INFO Server started
+2026-11-12 09:01:15 INFO User aman logged in
+2026-11-12 09:02:20 WARNING High memory usage
+2026-11-12 09:03:10 ERROR Database connection failed
+2026-11-12 09:04:11 INFO User aman logged out
+2026-11-12 09:05:30 ERROR Database connection failed
+2026-11-12 09:06:45 WARNING High CPU usage
+2026-11-12 09:07:20 ERROR Authentication failed
+
+2026-11-12 09:10:12 WARNING Failed login for user aman from 192.0.2.10
+2026-11-12 09:10:15 WARNING Failed login for user aman from 192.0.2.10
+2026-11-12 09:10:18 WARNING Failed login for user aman from 192.0.2.10
+
+2026-11-12 09:15:10 WARNING Failed login for user rahul from 198.51.100.25
+2026-11-12 09:16:20 WARNING Failed login for user rahul from 198.51.100.25
+
+2026-11-12 09:20:00 INFO User aman logged in
+2026-11-12 09:21:00 INFO Server running normally
+2026-11-17 02:35:00 ERROR Unauthorized access detected
+2026-11-17 02:40:00 INFO User aman logged in
+2026-11-17 02:41:00 WARNING High memory usage
+2026-11-17 02:42:00 ERROR Database connection failed
+2026-11-17 02:43:00 INFO Login failed for user test
+2026-11-17 03:00:00 INFO Login failed for user test
+2026-11-17 03:00:05 INFO Login failed for user test
+2026-11-17 03:00:10 INFO Login failed for user test
+2026-11-17 03:00:00 INFO Login failed for user test
+2026-11-17 03:00:05 INFO Login failed for user test
+2026-11-17 03:00:10 INFO Login failed for user test

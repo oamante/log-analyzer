@@ -1,0 +1,4 @@
+alert_type,severity,message,evidence
+Repeated username failures,MEDIUM,Repeated failed logins for user aman,3 failed attempts
+Repeated IP failures,MEDIUM,Repeated failed logins from IP 192.0.2.10,3 failed attempts
+Rapid login activity,HIGH,Potential brute-force pattern from IP 192.0.2.10: 3 attempts within 60 seconds,3 attempts within 60 seconds
